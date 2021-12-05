@@ -51,7 +51,7 @@ function nextSequence() {
     level++;
     $("#level-title").text("Level "+level);
     currentScore= level;
-    $(".current-score").text("current Score: "+currentScore);
+    $(".current-score").text("Current Score: "+currentScore);
     if(currentScore>=highestScore)
     {
         highestScore=currentScore;
